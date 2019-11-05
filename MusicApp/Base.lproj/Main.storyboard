@@ -100,15 +100,31 @@
                                     <action selector="nextButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a2g-XM-mVK"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Created by Brian Bugieda (November 2019)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AdJ-K0-Mio">
+                                <rect key="frame" x="57.5" y="748" width="299.5" height="19.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Musical Genres" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DaS-3H-HyP">
+                                <rect key="frame" x="94" y="192" width="226" height="36"/>
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="AdJ-K0-Mio" firstAttribute="centerX" secondItem="doe-bF-OJk" secondAttribute="centerX" id="5fv-d5-0Dq"/>
                             <constraint firstItem="jF9-cM-1Jw" firstAttribute="top" secondItem="doe-bF-OJk" secondAttribute="bottom" constant="70" id="5md-v6-AXd"/>
                             <constraint firstItem="doe-bF-OJk" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-50" id="8zU-YV-esb"/>
                             <constraint firstItem="jF9-cM-1Jw" firstAttribute="leading" secondItem="doe-bF-OJk" secondAttribute="leading" id="9iw-kJ-ulZ"/>
                             <constraint firstItem="iXZ-sm-Oj2" firstAttribute="trailing" secondItem="doe-bF-OJk" secondAttribute="trailing" id="Ccs-3O-TN0"/>
                             <constraint firstItem="doe-bF-OJk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PN4-lt-YEp"/>
+                            <constraint firstItem="DaS-3H-HyP" firstAttribute="centerX" secondItem="doe-bF-OJk" secondAttribute="centerX" id="eJb-PZ-1L4"/>
+                            <constraint firstItem="AdJ-K0-Mio" firstAttribute="top" secondItem="doe-bF-OJk" secondAttribute="bottom" constant="200" id="sFD-9p-rgn"/>
                             <constraint firstItem="iXZ-sm-Oj2" firstAttribute="centerY" secondItem="jF9-cM-1Jw" secondAttribute="centerY" id="ulv-VH-eGa"/>
+                            <constraint firstItem="doe-bF-OJk" firstAttribute="top" secondItem="DaS-3H-HyP" secondAttribute="bottom" constant="25" id="wSs-8w-9W2"/>
                             <constraint firstItem="jF9-cM-1Jw" firstAttribute="leading" secondItem="doe-bF-OJk" secondAttribute="leading" id="xWo-wb-Oek"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -116,7 +132,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="139"/>
+            <point key="canvasLocation" x="137.68115942028987" y="138.61607142857142"/>
         </scene>
     </scenes>
 </document>
