@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		6024757823714FAB001777E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6024757723714FAB001777E7 /* AppDelegate.swift */; };
 		6024757A23714FAB001777E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6024757923714FAB001777E7 /* SceneDelegate.swift */; };
-		6024757C23714FAB001777E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6024757B23714FAB001777E7 /* ViewController.swift */; };
 		6024757F23714FAB001777E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6024757D23714FAB001777E7 /* Main.storyboard */; };
 		6024758123714FAE001777E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6024758023714FAE001777E7 /* Assets.xcassets */; };
 		6024758423714FAE001777E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6024758223714FAE001777E7 /* LaunchScreen.storyboard */; };
 		6024758F23714FAE001777E7 /* MusicAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6024758E23714FAE001777E7 /* MusicAppTests.swift */; };
 		6024759A23714FAE001777E7 /* MusicAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6024759923714FAE001777E7 /* MusicAppUITests.swift */; };
+		602475AA237156BC001777E7 /* GenreButtonScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602475A9237156BC001777E7 /* GenreButtonScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		6024757423714FAB001777E7 /* MusicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6024757723714FAB001777E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6024757923714FAB001777E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6024757B23714FAB001777E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6024757E23714FAB001777E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6024758023714FAE001777E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6024758323714FAE001777E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		6024759523714FAE001777E7 /* MusicAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6024759923714FAE001777E7 /* MusicAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAppUITests.swift; sourceTree = "<group>"; };
 		6024759B23714FAE001777E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		602475A9237156BC001777E7 /* GenreButtonScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GenreButtonScreen.swift; path = /Users/brianbugieda/Desktop/MusicApp/MusicApp/GenreButtonScreen.swift; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +101,8 @@
 			children = (
 				6024757723714FAB001777E7 /* AppDelegate.swift */,
 				6024757923714FAB001777E7 /* SceneDelegate.swift */,
-				6024757B23714FAB001777E7 /* ViewController.swift */,
 				6024757D23714FAB001777E7 /* Main.storyboard */,
+				602475A9237156BC001777E7 /* GenreButtonScreen.swift */,
 				6024758023714FAE001777E7 /* Assets.xcassets */,
 				6024758223714FAE001777E7 /* LaunchScreen.storyboard */,
 				6024758523714FAE001777E7 /* Info.plist */,
@@ -259,9 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6024757C23714FAB001777E7 /* ViewController.swift in Sources */,
 				6024757823714FAB001777E7 /* AppDelegate.swift in Sources */,
 				6024757A23714FAB001777E7 /* SceneDelegate.swift in Sources */,
+				602475AA237156BC001777E7 /* GenreButtonScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

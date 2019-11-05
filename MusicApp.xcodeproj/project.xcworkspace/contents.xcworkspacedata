@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/brianbugieda/Desktop/MusicApp/MusicApp/GenreButtonScreen.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/brianbugieda/Desktop/MusicApp/MusicApp/ViewController.swift">
+   </FileRef>
+   <FileRef
       location = "self:MusicApp.xcodeproj">
    </FileRef>
 </Workspace>
