@@ -18,9 +18,11 @@ class GenreButtonScreen: UIViewController {
     }
     
     @IBAction func genreButtonTapped(_ sender: UIButton) {
-        MPMediaLibrary.requestAuthorization { (status) in
-            if(status == .authorized) {
-                self.playGenre(genre: sender.currentTitle!)
+        DispatchQueue.main.async {
+            MPMediaLibrary.requestAuthorization { (status) in
+                if(status == .authorized) {
+                    self.playGenre(genre: sender.currentTitle!)
+                }
             }
         }
     }
