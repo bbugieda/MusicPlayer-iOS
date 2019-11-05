@@ -27,7 +27,6 @@ class GenreButtonScreen: UIViewController {
         }
     }
     
-    
     @IBAction func stopButtonTapped(_ sender: UIButton) {
         musicPlayer.stop()
     }
@@ -48,4 +47,6 @@ class GenreButtonScreen: UIViewController {
         musicPlayer.shuffleMode = .songs
         musicPlayer.play()
     }
+    
+    
 }

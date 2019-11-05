@@ -101,7 +101,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Created by Brian Bugieda (November 2019)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AdJ-K0-Mio">
-                                <rect key="frame" x="57.5" y="798" width="299.5" height="19.5"/>
+                                <rect key="frame" x="57.5" y="823" width="299.5" height="19.5"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -112,6 +112,34 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="hDw-5u-h8e">
+                                <rect key="frame" x="77" y="628" width="260" height="139"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current Song:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yKQ-g7-2vh">
+                                        <rect key="frame" x="0.0" y="0.0" width="260" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="260" id="X0d-QY-IkV"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="aat-lU-1VR"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="32"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Y5b-ht-rtQ">
+                                        <rect key="frame" x="0.0" y="49" width="260" height="90"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="260" id="8Ia-re-4rh"/>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="90" id="Jby-C5-RQm"/>
+                                            <constraint firstAttribute="width" constant="260" id="NM6-7h-DqC"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="90" id="Q20-xu-uNU"/>
+                                        </constraints>
+                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -120,10 +148,11 @@
                             <constraint firstItem="doe-bF-OJk" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-150" id="8zU-YV-esb"/>
                             <constraint firstItem="jF9-cM-1Jw" firstAttribute="leading" secondItem="doe-bF-OJk" secondAttribute="leading" id="9iw-kJ-ulZ"/>
                             <constraint firstItem="iXZ-sm-Oj2" firstAttribute="trailing" secondItem="doe-bF-OJk" secondAttribute="trailing" id="Ccs-3O-TN0"/>
-                            <constraint firstItem="doe-bF-OJk" firstAttribute="top" secondItem="DaS-3H-HyP" secondAttribute="baseline" constant="20" symbolType="layoutAnchor" id="FJ3-XG-iYd"/>
+                            <constraint firstItem="hDw-5u-h8e" firstAttribute="top" secondItem="doe-bF-OJk" secondAttribute="bottom" constant="180" id="Lwb-rj-pMh"/>
+                            <constraint firstItem="hDw-5u-h8e" firstAttribute="centerX" secondItem="doe-bF-OJk" secondAttribute="centerX" id="PLg-xc-HT3"/>
                             <constraint firstItem="doe-bF-OJk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PN4-lt-YEp"/>
                             <constraint firstItem="DaS-3H-HyP" firstAttribute="centerX" secondItem="doe-bF-OJk" secondAttribute="centerX" id="eJb-PZ-1L4"/>
-                            <constraint firstItem="AdJ-K0-Mio" firstAttribute="top" secondItem="doe-bF-OJk" secondAttribute="bottom" constant="350" id="sFD-9p-rgn"/>
+                            <constraint firstItem="AdJ-K0-Mio" firstAttribute="top" secondItem="doe-bF-OJk" secondAttribute="bottom" constant="375" id="sFD-9p-rgn"/>
                             <constraint firstItem="iXZ-sm-Oj2" firstAttribute="centerY" secondItem="jF9-cM-1Jw" secondAttribute="centerY" id="ulv-VH-eGa"/>
                             <constraint firstItem="doe-bF-OJk" firstAttribute="top" secondItem="DaS-3H-HyP" secondAttribute="bottom" constant="25" id="wSs-8w-9W2"/>
                             <constraint firstItem="jF9-cM-1Jw" firstAttribute="leading" secondItem="doe-bF-OJk" secondAttribute="leading" id="xWo-wb-Oek"/>
