@@ -25,12 +25,11 @@
                                             <constraint firstAttribute="height" constant="60" id="LeQ-Ve-O3Q"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="24"/>
-                                        <state key="normal" title="Pop">
+                                        <state key="normal" title="Easy Listening">
                                             <color key="titleColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         </state>
                                         <connections>
-                                            <action selector="genreButtonTapped:" destination="8bC-Xf-vdC" eventType="touchUpInside" id="EGG-ar-kbJ"/>
-                                            <action selector="genreButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ixp-tV-O50"/>
+                                            <action selector="genreButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C3f-2T-it4"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yl7-gL-7AM">
