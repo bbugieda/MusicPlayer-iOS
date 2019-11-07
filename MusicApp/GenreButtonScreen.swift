@@ -12,9 +12,11 @@ import MediaPlayer
 class GenreButtonScreen: UIViewController {
     
     var musicPlayer = MPMusicPlayerController.applicationMusicPlayer
+    @IBOutlet weak var currentSong: UITextView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        currentSong.isEditable = false
     }
     
     @IBAction func genreButtonTapped(_ sender: UIButton) {
@@ -62,9 +64,8 @@ class GenreButtonScreen: UIViewController {
             DispatchQueue.main.async {
                 self.currentSong.text = ""
                 self.currentSong.insertText("\(title)")
+                self.currentSong.isEditable = false
             }
         }
     }
-    
-    @IBOutlet weak var currentSong: UITextView!
 }
