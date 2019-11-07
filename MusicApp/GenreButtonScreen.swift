@@ -58,6 +58,13 @@ class GenreButtonScreen: UIViewController {
             let title: String = mediaItem.value(forProperty: MPMediaItemPropertyTitle) as! String
 
             print("\(title)")
+            
+            DispatchQueue.main.async {
+                self.currentSong.text = ""
+                self.currentSong.insertText("\(title)")
+            }
         }
     }
+    
+    @IBOutlet weak var currentSong: UITextView!
 }
