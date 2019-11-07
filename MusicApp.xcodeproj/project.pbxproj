@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6024757423714FAB001777E7 /* MusicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6024757423714FAB001777E7 /* Sound Shuffle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sound Shuffle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6024757723714FAB001777E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6024757923714FAB001777E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6024757E23714FAB001777E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 		6024757523714FAB001777E7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6024757423714FAB001777E7 /* MusicApp.app */,
+				6024757423714FAB001777E7 /* Sound Shuffle.app */,
 				6024758A23714FAE001777E7 /* MusicAppTests.xctest */,
 				6024759523714FAE001777E7 /* MusicAppUITests.xctest */,
 			);
@@ -145,7 +145,7 @@
 			);
 			name = MusicApp;
 			productName = MusicApp;
-			productReference = 6024757423714FAB001777E7 /* MusicApp.app */;
+			productReference = 6024757423714FAB001777E7 /* Sound Shuffle.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6024758923714FAE001777E7 /* MusicAppTests */ = {
@@ -442,7 +442,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.brianbugieda.MusicApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Sound Shuffle";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -460,7 +460,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.brianbugieda.MusicApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Sound Shuffle";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
