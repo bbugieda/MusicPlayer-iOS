@@ -1,4 +1,4 @@
-# MusicApp
+# Sound Shuffle App
 A simple swift application for iOS that plays music from specific genres
 
 Developed by: Brian Bugieda, November 2019
@@ -6,7 +6,7 @@ Developed by: Brian Bugieda, November 2019
 ## Installation
 Open a bash terminal and type the following to clone a copy of the repository to your local computer.
 ```bash
-git clone https://github.com/bbugieda/MusicApp.git
+git clone https://github.com/bbugieda/Sound-Shuffle.git
 ```
 
 ## Setting up Environment & Running the App
