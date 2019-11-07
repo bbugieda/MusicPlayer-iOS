@@ -31,9 +31,12 @@ class GenreButtonScreen: UIViewController {
         musicPlayer.stop()
     }
     
-    
     @IBAction func nextButtonTapped(_ sender: UIButton) {
+        musicPlayer.stop()
         musicPlayer.skipToNextItem()
+        musicPlayer.play()
+        
+        displaySongTitle()
     }
     
     func playGenre(genre: String) {
@@ -46,7 +49,15 @@ class GenreButtonScreen: UIViewController {
         musicPlayer.setQueue(with: query)
         musicPlayer.shuffleMode = .songs
         musicPlayer.play()
+        
+        displaySongTitle()
     }
     
-    
+    func displaySongTitle() {
+        if let mediaItem = musicPlayer.nowPlayingItem {
+            let title: String = mediaItem.value(forProperty: MPMediaItemPropertyTitle) as! String
+
+            print("\(title)")
+        }
+    }
 }
