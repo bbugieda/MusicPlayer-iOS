@@ -1,6 +1,7 @@
 # MusicApp
 A simple swift application for iOS that plays music from specific genres
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 Developed by: Brian Bugieda, November 2019
@@ -31,3 +32,5 @@ The stop button stops the current song from being played. This is different than
 ### Current Song
 The Current Song text view displays the current song's title. You are able to highlight the text and copy the song name if you want to share it or send it to a friend.
 >>>>>>> parent of 8d19213... Update README.md
+=======
+>>>>>>> parent of 6184d4f... Update README.md
