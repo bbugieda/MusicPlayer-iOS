@@ -16,7 +16,7 @@ Open the repository in XCode and select a device or simulator to run.
 
 **Note: Run on an actual iOS device, as simulators are unable to connect to your music library
 
-The first time you install the app on your device, you may need to "Trust" apps from Apple Developer. To allow this, go into Settings >> General >> Profiles & Device Management. From here, select the Developer App item for the app you are running and click "Trust" button from the pop up dialogue.
+The first time you install the app on your device, you may need to "Trust" apps from Apple Developer. To allow this, to into Settings >> General >> Profiles & Device Management. From here, select the Developer App item for the app you are running and click "Trust" button from the pop up dialogue.
 
 ## Navigating in App
 
