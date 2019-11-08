@@ -1,5 +1,6 @@
 # Music Player for iOS
 A simple swift application for iOS that plays music from specific genres
+
 Developed by: Brian Bugieda, November 2019
 
 ## Installation
